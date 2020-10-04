@@ -37,12 +37,12 @@ var Habit = /** @class */ (function () {
         this.name = name;
         this.description = description;
         this.category = category;
-        this.dateCreated = new Date(dateCreated.getVarDate());
+        this.dateCreated = new Date(dateCreated.getTime());
         this.type = type;
         this.period = period;
         this.status = status;
         this.penalty = penalty;
-        this.archivedDate = archivedDate ? new Date(archivedDate.getVarDate()) : undefined;
+        this.archivedDate = archivedDate ? new Date(archivedDate.getTime()) : undefined;
     }
     Habit.prototype.getPeriodStartDate = function (date) {
         if (this.period = 'week') { //Gets Monday

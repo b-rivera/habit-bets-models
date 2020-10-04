@@ -10,7 +10,7 @@ export class OneTimeHabit extends Habit{
         deadline:Date, completed:boolean, archivedDate?:Date){
         super(id, name, description, category, dateCreated, type, period, status, 
             penalty, archivedDate);
-        this.deadline = new Date(deadline.getVarDate());
+        this.deadline = new Date(deadline.getTime());
         this.completed = completed;
     }
 

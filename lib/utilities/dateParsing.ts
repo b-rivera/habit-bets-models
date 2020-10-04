@@ -16,7 +16,7 @@ export function addDays(date: Date, days: number):Date {
   if (date instanceof Date && isNaN(date.getTime())) return date;
   if (days===0) return date;
   
-  var result = new Date(date.getVarDate());
+  var result = new Date(date.getTime());
   result.setDate(result.getDate() + days);
   return result;
 }

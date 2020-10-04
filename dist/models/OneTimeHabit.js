@@ -30,7 +30,7 @@ var OneTimeHabit = /** @class */ (function (_super) {
             // console.log("Last: " + getLastDayOfTheWeek(_today));
             return (_deadline <= _last && _deadline >= _start) ? true : false;
         };
-        _this.deadline = new Date(deadline.getVarDate());
+        _this.deadline = new Date(deadline.getTime());
         _this.completed = completed;
         return _this;
     }

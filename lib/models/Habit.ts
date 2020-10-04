@@ -20,12 +20,12 @@ export class Habit {
         this.name = name;
         this.description = description;
         this.category = category;
-        this.dateCreated = new Date(dateCreated.getVarDate());
+        this.dateCreated = new Date(dateCreated.getTime());
         this.type = type;
         this.period = period;
         this.status = status;
         this.penalty = penalty;
-        this.archivedDate = archivedDate ? new Date(archivedDate.getVarDate()) : undefined;
+        this.archivedDate = archivedDate ? new Date(archivedDate.getTime()) : undefined;
     }
 
     getPeriodStartDate(date:Date){        
