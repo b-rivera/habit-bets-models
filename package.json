@@ -1,0 +1,24 @@
+{
+  "name": "habit-bets-models",
+  "version": "0.1.0",
+  "description": "Models for habit bets project",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-rivera/habit-bets-models.git"
+  },
+  "author": "Brian Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b-rivera/habit-bets-models/issues"
+  },
+  "homepage": "https://github.com/b-rivera/habit-bets-models#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
